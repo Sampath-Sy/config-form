@@ -103,6 +103,7 @@ function App() {
     e.preventDefault();
     if (validateForm()) {
       alert("Form submitted: " + JSON.stringify(formData, null, 2));
+      setFormData({});
     }
   };
 
